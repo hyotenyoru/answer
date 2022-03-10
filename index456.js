@@ -74,8 +74,8 @@ console.log("總計工作:"+employeestypeTotal);
 //5. Make a function that take as parameters dayTime and return number of employee working // howManyEmployeeByTime(time) => int
 //查詢現在時間點有幾個員工
 
-function howManyEmployeeByTime(time) {
-    var time=new Date(time);//設置時間
+function howManyEmployeeByTime(dayTime) {
+    var time=new Date(dayTime);//設置時間
     var timegetHours=time.getHours();
     var index=new Array;
     var startTime=new Date(time);
